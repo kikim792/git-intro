@@ -6,6 +6,7 @@
 * SCM: Source control management
   * https://git-scm.com
 
+
 ### git config
 ```
 # System wide
@@ -18,10 +19,22 @@ $ git config user.name 'John Doe'
 $ git config user.email 'jdoe@example.com'
 
 ```
-git config is for other configurations other than author name and email.
+git config is for other configurations as well.
 
 
+### git init
+Put the project folder under version control
+```
+# Inside the project folder
 $ git init
+```
+
+
+### git clone
+```
+$ git clone <repo> <folder>
+```
+
 
 $ git add .
 $ git add -A
