@@ -1,5 +1,3 @@
-#### Find me at http://j.mp/sbma-git
-
 ### Git
 * VCS: Version control system
   * Other examples: subversion, mercurial, cvs, etc
