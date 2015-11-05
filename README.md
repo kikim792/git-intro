@@ -18,6 +18,7 @@ $ git config user.name 'John Doe'
 $ git config user.email 'jdoe@example.com'
 
 ```
+git config is for other configurations other than author name and email.
 
 
 $ git init
