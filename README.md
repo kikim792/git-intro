@@ -29,16 +29,58 @@ Put the project folder under version control
 $ git init
 ```
 
-
 ### git clone
 ```
-$ git clone <repo> <folder>
+# git clone <repo> <folder>
+$ git clone git@github.com:kikim792/git-intro.git sbma-git-intro
 ```
 
+### git status
+```
+$ git status
+```
 
-$ git add .
+### git add
+```
+$ git add <file>
+# or
+$ git add <folder>
+# or add every new/changed file/folder
 $ git add -A
+```
 
+### git reset
+```
+# Unstage file
+$ git reset <file>
+# Unstage everything
+$ git reset
+```
+
+### .gitignore
+
+### git diff
+* Shows what has changed.
+
+### git log
+```
+$ git log
+$ git log --decorate
+```
+
+### git commit
+```
+$ git commit -m 'Example commit message'
+```
+
+### git pull
+
+### git push
+
+### git help
+```
+$ git help <command>
+```
 
 References
 ----------
